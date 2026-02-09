@@ -152,6 +152,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               className="w-full h-full object-contain"
               priority
               sizes="(max-width: 640px) 80px, 96px"
+              unoptimized
             />
           </div>
 
@@ -182,7 +183,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              Hey Princess! 💕
+              Hi Ms. Ellyn 💕
             </motion.h1>
 
             <motion.div
@@ -192,8 +193,9 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               transition={{ delay: 0.4 }}
             >
               <p>
-                I Wanted to do something special for you, for this princess day,
-                so I made something special just for you...
+                I hope this isn&apos;t too awkward, but I wanted to start by apologizing in case I misspelled your name—please
+                correct me if I did. I guess this letter is my way of being a little brave.
+                But I made something special for you for this valentine&apos;s day...
               </p>
               <p className="pt-3">
                 <span className="font-semibold text-[#f04299]">
@@ -233,7 +235,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
         </motion.div>
 
         <div className="mt-8 text-xs text-[#9a4c73] text-center">
-          Made with love, only for you 💕
+          Made with love 💕
         </div>
       </div>
     </div>

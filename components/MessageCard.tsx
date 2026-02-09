@@ -128,10 +128,10 @@ export default function MessageCard({
         <div className="flex items-center justify-center gap-2 mb-6 animate-slideDown">
           <div className="text-center">
             <h2 className="text-[#f04299] text-lg sm:text-xl font-bold leading-tight">
-              A Love Letter 💌
+              A Valentine Letter 💌
             </h2>
             <div className="text-xs text-[#9a4c73] mt-1">
-              From my heart to yours
+              A small Valentine, from me to you 💕
             </div>
           </div>
         </div>
@@ -277,7 +277,7 @@ export default function MessageCard({
                                 💝
                               </div>
                               <span className="text-sm font-semibold text-[#9a4c73]">
-                                My Sweetest Love
+                                A Small Valentine Message
                               </span>
                             </div>
                           </div>
@@ -285,23 +285,25 @@ export default function MessageCard({
                           {/* Letter body */}
                           <div className="handwriting text-sm sm:text-base leading-relaxed text-[#1b0d14] pb-20 pt-6">
                             <div className="mb-4 text-[#f04299] font-medium">
-                              My dearest Divya,
+                              Dear Ms. Ellyn,
                             </div>
                             <div
                               className="mb-6 text-justify"
                               style={{ textIndent: '2rem' }}
                             >
-                              Every moment with you feels like a beautiful dream
-                              that I never want to wake up from. I want you to
-                              know that you are the most precious person in my
-                              life. Every day with you is a gift, and I&apos;m
-                              grateful for every second we share together. You
-                              make me want to be the best version of myself.
+                              I hope you don&apos;t mind me writing this. I&apos;m not very good at expressing myself with words, and this took a bit of courage, but I wanted to try.
+
+                              We may not know each other very well, but I wanted to share this small Valentine message with you.
+
+                              If it is okay with you—and if this does not make you uncomfortable—I was wondering if we could be friends. I have noticed you since October, and I have been quietly hoping to get to know you a little more, at your comfort and pace.
+
+                              So instead of saying too much, I made something special for you.
+                              I hope it brings a small smile to your day.
                             </div>
                             <div className="mt-8 ml-auto w-fit">
                               <div className="font-medium text-[#f04299]">
                                 <TypewriterText
-                                  text="With all my love, Always yours 💕"
+                                  text="From my heart to yours 💗"
                                   duration={2}
                                   delay={0}
                                   onComplete={() =>

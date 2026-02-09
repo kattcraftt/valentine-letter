@@ -139,10 +139,10 @@ export default function SealedLetter({
 
             {/* Heading */}
             <h2 className="text-2xl sm:text-3xl font-black text-[#f04299] mb-2">
-              Letter Sealed with Love
+              Letter Sealed with Care
             </h2>
             <p className="text-sm sm:text-base text-[#9a4c73] mb-5">
-              I Love You Always
+              Just a little note to brighten your day ✨
             </p>
 
             {/* Animated Hearts */}
@@ -169,7 +169,7 @@ export default function SealedLetter({
 
             {/* Always Yours */}
             <div className="text-lg sm:text-xl font-semibold text-[#1b0d14] mb-1">
-              <span className="text-[#c0396f]">Always Yours 💕</span>
+              <span className="text-[#c0396f]">With a Gentle Smile 💖</span>
             </div>
 
             {/* Date */}
@@ -194,7 +194,7 @@ export default function SealedLetter({
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                   >
-                    <span className="text-2xl">💋</span>
+                    <span className="text-2xl">😊</span>
                     <div className="sparkle"></div>
                   </motion.div>
                 ))}
@@ -212,7 +212,7 @@ export default function SealedLetter({
                 onClick={handleSendKiss}
                 className="rounded-full bg-[#9be7c4] px-5 py-2.5 text-sm sm:text-base font-medium shadow hover:brightness-95 transition cursor-pointer"
               >
-                Send a Virtual Kiss 💋
+                Send a Little Smile 😊
               </button>
             </div>
           </motion.div>

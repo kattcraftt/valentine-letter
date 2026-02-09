@@ -143,28 +143,31 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
                   </svg>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-extrabold text-[#1b0d14]">
-                  Final Love Letter
+                  Final Valentine Letter
                 </h3>
               </div>
             </div>
 
             <article className="handwriting text-sm sm:text-base text-[#1b0d14] leading-relaxed space-y-4">
               <p className="text-[#f04299] font-semibold">
-                My sweetest Cutiepie,
+                Hello again Ms. Ellyn,
               </p>
               <p>
-                You&apos;re the calm I reach for and the laugh that brightens my
-                day.
+                I’m sorry for giving you small snacks over the past few weeks without
+                properly introducing myself. I tend to get a little shy, and I hope it
+                didn’t make you feel uncomfortable.
               </p>
               <p className="text-[#5a9bb8]">
-                I hope this tiny world made you smile — and whispered how much
-                you mean to me.
+                I just wanted to bring a little light to your day, especially if work
+                feels heavy or stressful. Even small moments can make a difference.
               </p>
               <p>
-                I&apos;ll keep making memories, big and small, always with you.
+                I hope this tiny gesture brings a gentle smile to your day 😊 and
+                reminds you that someone is cheering for you quietly.
               </p>
               <p className="text-[#a67fb8]">
-                Forever yours, in every little universe.
+                Wishing you all the best at work, and may your day feel a little
+                lighter and brighter.
               </p>
             </article>
 

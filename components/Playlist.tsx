@@ -20,24 +20,24 @@ interface Track {
 const tracks: Track[] = [
   {
     id: 1,
-    title: 'Dil Cheeze Tujhe Dedi',
-    description: 'You own this heart — dedicated to you 💞',
+    title: 'This Ain\'t Love',
+    description: 'Caught by your smile 💞',
     image: '/assets/music1.png',
-    audio: '/assets/music1-Bpgt1BZ5.mp3',
+    audio: '/assets/music1-this-aint-love.mp3',
   },
   {
     id: 2,
-    title: 'If the world was ending',
-    description: "Even if the world ends, I'd still find you 🤍",
+    title: 'Mahika',
+    description: "My heart quietly noticed you 🤍",
     image: '/assets/music2.png',
-    audio: '/assets/music2-mdcMq3L1.mp3',
+    audio: '/assets/music2-mahika.mp3',
   },
   {
     id: 3,
-    title: 'Dil ka Jo Haal hai',
-    description: 'Tu Kaare Dil Bekarar 💞',
+    title: 'This Moment',
+    description: 'A shy little moment for you 💞',
     image: '/assets/music3.png',
-    audio: '/assets/music3-ClPh4k2q.mp3',
+    audio: '/assets/music3-this-moment.mp3',
   },
 ];
 
@@ -325,11 +325,10 @@ export default function Playlist({ onContinue }: PlaylistProps) {
               <button
                 onClick={scrollLeft}
                 disabled={!canScrollLeft}
-                className={`absolute left-2 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white shadow-lg border border-pink-200 flex items-center justify-center transition-all focus:outline-none focus:ring-4 focus:ring-pink-300 ${
-                  canScrollLeft
-                    ? 'text-[#f04299] hover:bg-pink-50 cursor-pointer'
-                    : 'text-gray-300 cursor-not-allowed'
-                }`}
+                className={`absolute left-2 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white shadow-lg border border-pink-200 flex items-center justify-center transition-all focus:outline-none focus:ring-4 focus:ring-pink-300 ${canScrollLeft
+                  ? 'text-[#f04299] hover:bg-pink-50 cursor-pointer'
+                  : 'text-gray-300 cursor-not-allowed'
+                  }`}
                 aria-label="Scroll left"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
@@ -347,11 +346,10 @@ export default function Playlist({ onContinue }: PlaylistProps) {
               <button
                 onClick={scrollRight}
                 disabled={!canScrollRight}
-                className={`absolute right-2 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white shadow-lg border border-pink-200 flex items-center justify-center transition-all focus:outline-none focus:ring-4 focus:ring-pink-300 ${
-                  canScrollRight
-                    ? 'text-[#f04299] hover:bg-pink-50 cursor-pointer'
-                    : 'text-gray-300 cursor-not-allowed'
-                }`}
+                className={`absolute right-2 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-white shadow-lg border border-pink-200 flex items-center justify-center transition-all focus:outline-none focus:ring-4 focus:ring-pink-300 ${canScrollRight
+                  ? 'text-[#f04299] hover:bg-pink-50 cursor-pointer'
+                  : 'text-gray-300 cursor-not-allowed'
+                  }`}
                 aria-label="Scroll right"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
@@ -374,11 +372,10 @@ export default function Playlist({ onContinue }: PlaylistProps) {
                 {tracks.map((track) => (
                   <div
                     key={track.id}
-                    className={`group relative cursor-pointer transform transition-all duration-300 flex-shrink-0 w-56 h-full hover:scale-105 hover:z-10 ${
-                      currentTrack === track.id
-                        ? 'ring-2 ring-[#f04299] ring-offset-2 rounded-xl'
-                        : ''
-                    }`}
+                    className={`group relative cursor-pointer transform transition-all duration-300 flex-shrink-0 w-56 h-full hover:scale-105 hover:z-10 ${currentTrack === track.id
+                      ? 'ring-2 ring-[#f04299] ring-offset-2 rounded-xl'
+                      : ''
+                      }`}
                     onClick={() => handleTrackClick(track.id)}
                   >
                     <div className="relative bg-white rounded-xl p-4 border-2 shadow-lg transition-all border-pink-100 hover:border-pink-200 hover:shadow-xl group-hover:shadow-pink-200/30 h-full flex flex-col">

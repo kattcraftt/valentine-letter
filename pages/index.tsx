@@ -28,15 +28,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Happy National Princess Day 👑</title>
+        <title>Valentine Letter</title>
         <meta
           name="description"
-          content="A special surprise for National Princess Day - A delightful interactive experience with love letters, music, and memories"
+          content="A special surprise for Valentine's Day - A delightful interactive experience with love letters, music, and memories"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
-          content="National Princess Day, love letter, surprise, romantic, interactive"
+          content="Valentine's Day, love letter, surprise, romantic, interactive"
         />
         <meta name="author" content="Made with 💕" />
 
@@ -47,29 +47,29 @@ export default function Home() {
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Happy National Princess Day 👑" />
+        <meta property="og:title" content="Valentine Letter" />
         <meta
           property="og:description"
-          content="A special surprise for National Princess Day - A delightful interactive experience with love letters, music, and memories"
+          content="A special surprise for Valentine's Day - A delightful interactive experience with love letters, music, and memories"
         />
         <meta property="og:image" content="/og-image.jpg" />
         <meta
           property="og:url"
-          content="https://national-princess-day.vercel.app"
+          content="https://valentine-letter.vercel.app"
         />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Happy National Princess Day 👑" />
+        <meta name="twitter:title" content="Valentine Letter" />
         <meta
           name="twitter:description"
-          content="A special surprise for National Princess Day"
+          content="A special surprise for Valentine's Day"
         />
         <meta name="twitter:image" content="/og-image.jpg" />
 
         {/* Additional SEO */}
         <meta name="theme-color" content="#fff8e7" />
-        <link rel="canonical" href="https://national-princess-day.vercel.app" />
+        <link rel="canonical" href="https://valentine-letter.vercel.app" />
       </Head>
 
       <main className="min-h-screen">
@@ -83,7 +83,7 @@ export default function Home() {
 
         <footer className="px-4 py-8 text-center text-text/60">
           <p className="text-sm">
-            National Princess Day —{' '}
+            Valentine&apos;s Day —{' '}
             {new Date().toLocaleDateString('en-US', {
               year: 'numeric',
               month: 'long',

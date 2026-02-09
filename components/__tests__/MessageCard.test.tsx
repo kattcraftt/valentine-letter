@@ -21,7 +21,7 @@ jest.mock('next/image', () => ({
 describe('MessageCard', () => {
   it('renders when revealed', () => {
     render(<MessageCard isRevealed={true} />);
-    expect(screen.getByText(/Happy National Princess Day/i)).toBeInTheDocument();
+    expect(screen.getByText(/Happy Valentine's Day/i)).toBeInTheDocument();
   });
 
   it('does not render when not revealed', () => {

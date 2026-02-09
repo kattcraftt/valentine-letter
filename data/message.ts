@@ -1,13 +1,15 @@
 export const messageData = {
-  title: 'Happy National Princess Day 👑',
-  subtitle: 'To my favorite princess — today, and every day.',
-  body: `Hey princess,
+  title: 'Happy Valentine’s Day, my Ms. Ellyn 💖',
+  subtitle: 'A little note to brighten your day.',
+  body: `Hi Ms. Ellyn,
 
-I found something pretty today and it made me think of you — soft, bright, and impossible not to smile at. I wanted to celebrate you — your kindness, your laugh, the way you brighten my days.
+I’m sorry for giving you small snacks over the past few weeks without properly introducing myself. I can be a little shy, and I hope it didn’t make you feel uncomfortable.  
 
-You're my queen of small things and big heart. Happy National Princess Day. 🌸
+I just wanted to make your day a little lighter — a small reminder of how kind and wonderful you are.  
 
-— With all my love, Rushi`,
+Wishing you happiness and a smooth, stress-free day at work. Happy Valentine’s Day 🌸
+
+— Josh`,
   cta: 'Open your gift ✨',
   toast: {
     copied: 'Message copied! Send it with a heart 💌',
