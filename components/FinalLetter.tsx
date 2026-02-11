@@ -192,7 +192,7 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
                       animate={{ opacity: 1 }}
                       exit={{ opacity: 0 }}
                     >
-                      <span className="text-2xl">💋</span>
+                      <span className="text-2xl">💝</span>
                       <div className="sparkle"></div>
                     </motion.div>
                   ))}

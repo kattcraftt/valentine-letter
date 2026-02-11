@@ -295,7 +295,7 @@ export default function MessageCard({
 
                               We may not know each other very well, but I wanted to share this small Valentine message with you.
 
-                              If it is okay with you—and if this does not make you uncomfortable—I was wondering if we could be friends. I have noticed you since October, and I have been quietly hoping to get to know you a little more, at your comfort and pace.
+                              If it is okay with you—and if this does not make you uncomfortable—I was wondering if we could be friends. I have been quietly hoping to get to know you a little more, at your comfort and pace.
 
                               So instead of saying too much, I made something special for you.
                               I hope it brings a small smile to your day.

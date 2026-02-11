@@ -193,9 +193,10 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               transition={{ delay: 0.4 }}
             >
               <p>
-                I hope this isn&apos;t too awkward, but I wanted to start by apologizing in case I misspelled your name—please
-                correct me if I did. I guess this letter is my way of being a little brave.
-                But I made something special for you for this valentine&apos;s day...
+                I know we’ve already exchanged names before, but I just wanted to properly introduce myself again — I&apos;m Josh
+                and I hope this isn&apos;t too awkward, but I wanted to start by apologizing in case I misspelled your name. Please
+                correct me if I did. I suppose this letter is my small way of trying to be a little brave.
+                I made something for you this Valentine’s Day, and I hope you like it.
               </p>
               <p className="pt-3">
                 <span className="font-semibold text-[#f04299]">
