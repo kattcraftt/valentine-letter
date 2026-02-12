@@ -192,12 +192,25 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
             >
-              <p>
-                I know we’ve already exchanged names before, but I just wanted to properly introduce myself again — I&apos;m Josh
-                and I hope this isn&apos;t too awkward, but I wanted to start by apologizing in case I misspelled your name. Please
-                correct me if I did. I suppose this letter is my small way of trying to be a little brave.
-                I made something for you this Valentine’s Day, and I hope you like it.
-              </p>
+
+              <article className="text-esm sm:text-base leading-relaxed  space-y-3">
+                <p>
+                  I know we’ve already exchanged names before, but I just wanted to properly introduce myself again — I&apos;m Josh
+                  and I hope this isn&apos;t too awkward, but I wanted to start by apologizing in case I misspelled your name. Please
+                  correct me if I did.
+                </p>
+
+                <p>
+                  And if the other day, or at any time, any teasing or noise from my side ever felt unnecessary or awkward, I sincerely apologize.
+                  I truly respect your space and comfort, and I would never want to cause you any unease.
+                </p>
+
+                <p>
+                  I suppose this letter is my small way of trying to be a little brave.
+                  I made something for you this Valentine’s Day, and I hope you like it.
+                </p>
+              </article>
+
               <p className="pt-3">
                 <span className="font-semibold text-[#f04299]">
                   Click below to see what it is! ✨
