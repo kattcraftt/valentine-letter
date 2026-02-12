@@ -34,10 +34,10 @@ const tracks: Track[] = [
   },
   {
     id: 3,
-    title: 'This Moment',
-    description: 'A shy little moment for you 💞',
+    title: 'Paraluman',
+    description: 'You feel like a quiet inspiration in my day 💞',
     image: '/assets/music-img3.png',
-    audio: '/assets/music3-this-moment.mp3',
+    audio: '/assets/music3-paraluman.mp3',
   },
 ];
 

@@ -178,7 +178,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
           {/* Content */}
           <div className="text-center space-y-6 relative">
             <motion.h1
-              className="text-3xl sm:text-4xl md:text-5xl font-black text-[#1b0d14] leading-snug"
+              className="text-xl sm:text-2xl md:text-3xl font-black text-[#1b0d14] leading-snug"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
@@ -193,7 +193,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               transition={{ delay: 0.4 }}
             >
 
-              <article className="text-esm sm:text-base leading-relaxed  space-y-3">
+              <article className="handwriting text-esm sm:text-base leading-relaxed  space-y-1">
                 <p>
                   I know we’ve already exchanged names before, but I just wanted to properly introduce myself again — I&apos;m Josh
                   and I hope this isn&apos;t too awkward, but I wanted to start by apologizing in case I misspelled your name. Please
