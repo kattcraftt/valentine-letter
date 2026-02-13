@@ -167,7 +167,7 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
               </p>
               <p className="text-[#a67fb8]">
                 Wishing you all the best at work, and may your day feel a little
-                lighter and brighter.
+                lighter and brighter. Once again, Happy Valentine’s Day!
               </p>
             </article>
 

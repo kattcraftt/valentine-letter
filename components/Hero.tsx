@@ -197,7 +197,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
                 <p>
                   I know we’ve already exchanged names before, but I just wanted to properly introduce myself again — I&apos;m Josh
                   and I hope this isn&apos;t too awkward, but I wanted to start by apologizing in case I misspelled your name. Please
-                  correct me if I did.
+                  correct me if I&apos;m wrong.
                 </p>
 
                 <p>
